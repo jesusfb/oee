@@ -1,0 +1,10 @@
+line_id,line_name,machine_id,machine_name,ideal_cycle_time_s
+L1,Blister Packaging,L1-THF,Thermoformer,0.6
+L1,Blister Packaging,L1-CTN,Cartoner,0.62
+L1,Blister Packaging,L1-CSP,Case Packer,9.0
+L2,Bottle Filling,L2-FIL,Filler,0.8
+L2,Bottle Filling,L2-CAP,Capper,0.75
+L2,Bottle Filling,L2-LBL,Labeler,0.7
+L3,Device Assembly,L3-PRS,Press,4.0
+L3,Device Assembly,L3-ASM,Assembly Cell,6.0
+L3,Device Assembly,L3-LKT,Leak Tester,5.0

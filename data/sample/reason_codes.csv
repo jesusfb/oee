@@ -1,0 +1,13 @@
+reason_code,description,state,loss_bucket,is_failure
+BREAK,Scheduled break / meal,PLANNED_STOP,schedule_loss,False
+NO_ORDERS,Not scheduled / no orders,PLANNED_STOP,schedule_loss,False
+PLANNED_MAINT,Planned preventive maintenance,PLANNED_STOP,schedule_loss,False
+CHANGEOVER,Product / format changeover,PLANNED_STOP,setup,False
+CLEANING,Line clearance & cleaning,PLANNED_STOP,setup,False
+BREAKDOWN,Mechanical / electrical breakdown,UNPLANNED_STOP,breakdown,True
+JAM,Product jam / misfeed,UNPLANNED_STOP,breakdown,True
+SENSOR_FAULT,Sensor / vision-system fault,UNPLANNED_STOP,breakdown,True
+MATERIAL_SHORTAGE,Material / component shortage,UNPLANNED_STOP,breakdown,False
+QUALITY_HOLD,Quality hold / investigation,UNPLANNED_STOP,breakdown,False
+NO_OPERATOR,Operator unavailable,UNPLANNED_STOP,breakdown,False
+STARVED_BLOCKED,Starved upstream / blocked downstream,UNPLANNED_STOP,breakdown,False

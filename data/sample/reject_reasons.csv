@@ -1,0 +1,8 @@
+reject_reason,description
+STARTUP_SCRAP,Start-up / warm-up scrap
+DIMENSIONAL,Out-of-tolerance dimension
+SEAL_DEFECT,Seal / weld defect
+SURFACE_DEFECT,Surface / cosmetic defect
+LABEL_ERROR,Label / print / code error
+MISSING_COMPONENT,Missing component
+CONTAMINATION,Foreign matter / contamination
